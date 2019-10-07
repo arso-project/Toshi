@@ -7,7 +7,7 @@ license = "MIT"
 edition = "2018"
 
 [dependencies]
-tantivy       = "^0.10"
+tantivy = { git = "https://github.com/tantivy-search/tantivy.git", branch = "master" }
 failure       = "^0.1"
 serde         = { version = "^1.0", features = ["derive"] }
 serde_json    = "^1.0"
